@@ -1,18 +1,19 @@
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Hedy Liu</title>
-        <meta name="description" content="Parsons Communication Design Student">
-        <meta name="author" content="Hedy">
-       
-         <!-- Link to your favicon -->
-        <link rel="shortcut icon" type="image/png" href="./favicon.png" />
-    
-       <!-- Link to your stylesheet -->
-        <link rel="stylesheet" href="./style.css">
-    </head>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Interactive Zine</title>
+
+    <!-- add reset to create consistency between browsers and devices. -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- add link to your javascript. be sure it includes "defer" -->
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
 
     <body>
 
@@ -36,21 +37,39 @@
     <br>
     <br>
     <br>
+    <div class= "circle-container">
+        <div class="text-box">
+        <div id="text" style="display:none;">Red is the color at the long wavelength end of the visible spectrum of light, next to orange and opposite violet. It has a dominant wavelength of approximately 625–740 nanometres.
+        <br>
+        Blue is one of the three primary colours of pigments in painting and traditional colour theory, as well as in the RGB colour model. It lies between violet and green on the spectrum of visible light. The eye perceives blue when observing light with a dominant wavelength between approximately 450 and 495 nanometres. 
+        <br>
+        Yellow is the color between orange and green on the spectrum of visible light. It is evoked by light with a dominant wavelength of roughly 570–590 nm.
 
-    <div class="redcircle">Red</div>
+        </div>
+    </div>
+
+           
+    <span class="red-circle">
+        <a href="javascript:;" onClick="document.getElementById('text').style.display='block';">Red</a>
+    </span>
     <br>
     <br>
     <br>
-    <div class="bluecircle">Blue</div>
+    <span class="blue-circle">
+        <a href="javascript:;" onClick="document.getElementById('text').style.display='block';">Blue</a>
+        </span>
     <br>
     <br>
     <br>
-    <div class="yellowcircle">Yellow</div>
+    <span class="yellow-circle">
+        <a href="javascript:;" onClick="document.getElementById('text').style.display='block';">Yellow</a>
+        </span>
     <br>
     <br>
     <br>
     <br>
     <br>
+</div>
 
 
     </body>
