@@ -104,11 +104,140 @@ height: 100%;;
   font-size: 40px;
 }
 
-.text{
-   text-decoration: white;
-}
 
 a:link, a:visited {
     color:black;
     text-decoration:none;
+}
+
+.back{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 0px;
+    flex-basis: 40%;
+    margin:5px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+
+.heading{
+    position: fixed;
+    padding: 0.5rem;
+
+    margin:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin-left: 0;
+}
+
+.red-circle{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: left 0;
+    background: transparent;
+    border: 1pt solid black;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.red-circle:hover{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    background: transparent;
+    border: 3pt solid red;
+    color:red;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+
+.blue-circle{
+   
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    background: transparent;
+    border: 1pt solid black;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+
+.blue-circle:hover{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    background: transparent;
+    border: 3pt solid blue;
+    color:blue;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.yellow-circle{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    background: transparent;
+    border: 1pt solid black;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.yellow-circle:hover{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    background: transparent;
+    border: 3pt solid yellow;
+    color:yellow;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+
+a:link, a:visited {
+    color:black;
+    text-decoration:none;
+}
+
+.back{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 0px;
+    flex-basis: 40%;
+    margin:5px;
+}
+
 }
